@@ -11,3 +11,18 @@ def firstUniqChar(s):
         if freq[ch] == 1:
             return i
     return -1
+
+# def first_unique_char(s):
+
+#     char_list = []
+
+#     for char in s:
+#         if char in char_list:
+#             char_list.remove(char)
+#         char_list.append(char)
+
+#     print(char_list)
+#     return char_list[0]
+
+# print(first_unique_char("swisswi"))
+        
