@@ -11,6 +11,7 @@ def armstrong_number(num: int):
         num = num // 10
 
         total += rem**n
+        print(total, rem, num , "----------------------------------------")
 
     return total == val
 
